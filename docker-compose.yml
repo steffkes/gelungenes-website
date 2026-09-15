@@ -1,0 +1,10 @@
+name: gelungenes-website
+services:
+  app:
+    image: node:26.8.1-alpine3.23
+    command: ["npm", "run", "dev", "--", "--host"]
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - 127.0.0.1:6400:3000
