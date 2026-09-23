@@ -308,6 +308,24 @@ useHead({
       </div>
     </div>
   </section>
+
+  <footer class="footer px-0">
+    <div class="columns">
+      <div class="column is-10 is-offset-1">
+        <p>
+          Gelungenes c/o Stefan Matheis · Alpenstraße 19, 87435 Kempten ·
+
+          <a href="tel:+4916097048114">0160 970 48 114</a> ·
+          <a href="mailto:stefan@gelungen.es">stefan@gelungen.es</a> ·
+
+          <abbr
+            title="Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz"
+            >UstID</abbr
+          >: DE 273 589 132
+        </p>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <style>
