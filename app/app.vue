@@ -346,4 +346,13 @@ useHead({
 .row.reversed {
   flex-direction: row-reverse;
 }
+
+mark {
+  background-color: transparent;
+  background-image: url(/yellow_highlight_bold_05.svg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  white-space: nowrap;
+}
 </style>
