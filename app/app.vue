@@ -1,3 +1,12 @@
+<script setup>
+useHead({
+  titleTemplate: (pageTitle) =>
+    [pageTitle, "Gelungenes"].filter(Boolean).join(" | "),
+  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
+  charset: "utf-8",
+});
+</script>
+
 <template>
 <section class="section py-6">
 
