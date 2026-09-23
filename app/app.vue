@@ -60,7 +60,11 @@ useHead({
     </div>
     <div class="column is-4">
       <section class="section">
-        <h2 class="title">Schanzenlauf <span>Oberstdorf</span></h2>
+        <h2 class="title">
+          <a href="//www.schanzenlauf-oberstdorf.de"
+            >Schanzenlauf <span>Oberstdorf</span></a
+          >
+        </h2>
         <!--<span class="tag">2023</span>-->
 
         <article class="message">
@@ -95,7 +99,9 @@ useHead({
     <div class="column is-4 is-offset-1">
       <section class="section">
         <!-- has-text-right -->
-        <h2 class="title">Schachmatt <span>Ulm</span></h2>
+        <h2 class="title">
+          <a href="//www.schachmatt-ulm.de">Schachmatt <span>Ulm</span></a>
+        </h2>
         <!--<span class="tag">2025</span>-->
 
         <article class="message">
@@ -130,7 +136,11 @@ useHead({
     </div>
     <div class="column is-4">
       <section class="section">
-        <h2 class="title">Fire Trail <span>Nesselwang</span></h2>
+        <h2 class="title">
+          <a href="//wwww.fire-trail-nesselwang.de"
+            >Fire Trail <span>Nesselwang</span></a
+          >
+        </h2>
         <!--<span class="tag">2025</span>-->
         <p>
           Beim Fire Trail geht Feuerwehrsport raus aus dem Gebäude und rauf auf
@@ -156,7 +166,11 @@ useHead({
     </div>
     <div class="column is-4 is-offset-1">
       <section class="section">
-        <h2 class="title">Münsterturmlauf <span>Ulm</span></h2>
+        <h2 class="title">
+          <a href="//muensterturmlauf-ulm.gelungen.es"
+            >Münsterturmlauf <span>Ulm</span></a
+          >
+        </h2>
         <!--<span class="tag">2026</span>-->
         <p>
           560 Stufen führen vom Münsterplatz hinauf zum zweiten Kranz des Ulmer
@@ -181,7 +195,9 @@ useHead({
     </div>
     <div class="column is-4">
       <section class="section">
-        <h2 class="title">Munich <span>Sunrise</span></h2>
+        <h2 class="title">
+          <a href="//www.munich-sunrise.de">Munich <span>Sunrise</span></a>
+        </h2>
         <!--<span class="tag">2026</span>-->
 
         <article class="message">
@@ -228,7 +244,11 @@ useHead({
     </div>
     <div class="column is-4 is-offset-1">
       <section class="section">
-        <h2 class="title">Schachmatt <span>Mannheim</span></h2>
+        <h2 class="title">
+          <a href="//wwww.schachmatt-mannheim.de"
+            >Schachmatt <span>Mannheim</span></a
+          >
+        </h2>
         <!--<span class="tag">2027</span>-->
         <p>
           Das K.-o.-Prinzip von Schachmatt kommt nach Mannheim. Statt Runde für
@@ -249,7 +269,11 @@ useHead({
     </div>
     <div class="column is-4">
       <section class="section">
-        <h2 class="title">Fire Trail <span>Immenstadt</span></h2>
+        <h2 class="title">
+          <a href="//www.fire-trail-immenstadt.de"
+            >Fire Trail <span>Immenstadt</span></a
+          >
+        </h2>
         <!--<span class="tag">2027</span>-->
         <p>
           Nach Nesselwang bekommt der Fire Trail eine zweite Station im Allgäu.
@@ -270,7 +294,7 @@ useHead({
     </div>
     <div class="column is-4 is-offset-1">
       <section class="section">
-        <h2 class="title">Eskalation</h2>
+        <h2 class="title"><a href="//eskalation.gelungen.es">Eskalation</a></h2>
         <!--<span class="tag">2027</span>-->
 
         <article class="message">
@@ -354,5 +378,10 @@ mark {
   background-repeat: no-repeat;
   background-size: cover;
   white-space: nowrap;
+}
+
+.title a {
+  color: inherit;
+  display: block;
 }
 </style>
