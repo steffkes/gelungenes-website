@@ -65,7 +65,6 @@ useHead({
             >Schanzenlauf <span>Oberstdorf</span></a
           >
         </h2>
-        <!--<span class="tag">2023</span>-->
 
         <article class="message">
           <div class="message-body">
@@ -98,11 +97,9 @@ useHead({
     </div>
     <div class="column is-4 is-offset-1">
       <section class="section">
-        <!-- has-text-right -->
         <h2 class="title">
           <a href="//www.schachmatt-ulm.de">Schachmatt <span>Ulm</span></a>
         </h2>
-        <!--<span class="tag">2025</span>-->
 
         <article class="message">
           <div class="message-body">
@@ -141,7 +138,7 @@ useHead({
             >Fire Trail <span>Nesselwang</span></a
           >
         </h2>
-        <!--<span class="tag">2025</span>-->
+
         <p>
           Beim Fire Trail geht Feuerwehrsport raus aus dem Gebäude und rauf auf
           den Berg. Die Strecke führt vom Explorer Hotel über Treppen, Waldwege
@@ -171,7 +168,7 @@ useHead({
             >Münsterturmlauf <span>Ulm</span></a
           >
         </h2>
-        <!--<span class="tag">2026</span>-->
+
         <p>
           560 Stufen führen vom Münsterplatz hinauf zum zweiten Kranz des Ulmer
           Münsters – rund 102 Höhenmeter. Für die Feuerwehrwertung wird die
@@ -198,7 +195,6 @@ useHead({
         <h2 class="title">
           <a href="//www.munich-sunrise.de">Munich <span>Sunrise</span></a>
         </h2>
-        <!--<span class="tag">2026</span>-->
 
         <article class="message">
           <div class="message-body">
@@ -249,7 +245,7 @@ useHead({
             >Schachmatt <span>Mannheim</span></a
           >
         </h2>
-        <!--<span class="tag">2027</span>-->
+
         <p>
           Das K.-o.-Prinzip von Schachmatt kommt nach Mannheim. Statt Runde für
           Runde gegen die Uhr geht es direkt ins Duell: Zwei Teams, ein
@@ -274,7 +270,7 @@ useHead({
             >Fire Trail <span>Immenstadt</span></a
           >
         </h2>
-        <!--<span class="tag">2027</span>-->
+
         <p>
           Nach Nesselwang bekommt der Fire Trail eine zweite Station im Allgäu.
           Immenstadt wird damit Teil der Serie, die Feuerwehrsport mit Berglauf
