@@ -327,7 +327,7 @@ useHead({
             und aus besonderen Orten besondere Herausforderungen machen.
           </p>
 
-          <p>Mal sehen, was als Nächstes kommt.</p>
+          <p><mark class="special">Mal sehen, was als Nächstes kommt.</mark></p>
         </div>
       </div>
     </div>
@@ -378,6 +378,10 @@ mark {
   background-repeat: no-repeat;
   background-size: cover;
   white-space: nowrap;
+}
+
+mark.special {
+  background-image: url(/green_highlight_bold_05.svg);
 }
 
 .title a {
