@@ -312,6 +312,28 @@ useHead({
     </div>
   </div>
 
+  <div class="columns mt-6 row">
+    <div
+      class="column image is-7"
+      style="background-image: url(images/fire-ride.jpg)"
+    >
+      &nbsp;
+    </div>
+    <div class="column is-4">
+      <section class="section">
+        <h2 class="title">Fire & Ride</h2>
+        <!--<span class="tag">2027</span>-->
+
+        <p>
+          Warum endet der Wettkampf bislang eigentlich immer oben? Bei Fire &
+          Ride befinden sich Start und Ziel <strong>unten</strong>, nach dem
+          Lauf bergauf musst du also auch noch so schnell wie möglich wieder
+          runter.
+        </p>
+      </section>
+    </div>
+  </div>
+
   <section class="section py-6">
     <div class="columns mt-6">
       <div class="column is-10 is-offset-1">
