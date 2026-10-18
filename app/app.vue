@@ -340,11 +340,6 @@ useHead({
         <div class="content">
           <p>Und das war erst der Anfang.</p>
 
-          <p>
-            Gelungenes entwickelt Wettkämpfe, die bekannte Grenzen verschieben
-            und aus besonderen Orten besondere Herausforderungen machen.
-          </p>
-
           <p><mark class="special">Mal sehen, was als Nächstes kommt.</mark></p>
         </div>
       </div>
