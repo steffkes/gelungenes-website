@@ -183,6 +183,40 @@ useHead({
     </div>
   </div>
 
+  <div class="columns mt-6 row">
+    <div
+      class="column image is-7"
+      style="background-image: url(images/eskalation-frankfurt.jpg)"
+    >
+      &nbsp;
+    </div>
+    <div class="column is-4">
+      <section class="section">
+        <h2 class="title">
+          <a href="//eskalation-frankfurt.de"
+            >Eskalation <span>Frankfurt</span></a
+          >
+        </h2>
+
+        <article class="message">
+          <div class="message-body">
+            <blockquote>
+              <p>Ja bist du deppert 🙈</p>
+            </blockquote>
+            <p>— Marcus (FF Taufkirchen/Vils)</p>
+          </div>
+        </article>
+
+        <p>
+          Bei Eskalation wird das Prinzip Treppenlauf einmal komplett neu
+          gedacht. Denn hier bewegt sich die Treppe selbst: Gelaufen wird auf
+          der Rolltreppe im MyZeil – nach oben, während sie nach unten fährt.
+          <strong>Rise Against the Machine.</strong>
+        </p>
+      </section>
+    </div>
+  </div>
+
   <section class="hero is-info">
     <div class="hero-body px-0">
       <div class="columns">
@@ -247,29 +281,30 @@ useHead({
   <div class="columns mt-6 row reversed">
     <div
       class="column image is-7"
-      style="background-image: url(images/eskalation.jpg)"
+      style="background-image: url(images/eskalation-essen.jpg)"
     >
       &nbsp;
     </div>
     <div class="column is-4 is-offset-1">
       <section class="section">
-        <h2 class="title"><a href="//eskalation.gelungen.es">Eskalation</a></h2>
-        <!--<span class="tag">2027</span>-->
+        <h2 class="title">
+          <a href="//eskalation-essen.de">Eskalation <span>Essen</span></a>
+        </h2>
 
         <article class="message">
           <div class="message-body">
             <blockquote>
-              <p>Ja bist du deppert 🙈</p>
+              <p>Das ist mal ne <mark>wilde Sache</mark> 🦾</p>
             </blockquote>
-            <p>— Marcus (FF Taufkirchen/Vils)</p>
+            <p>— Manuel (BwF Laupheim)</p>
           </div>
         </article>
 
         <p>
-          Bei Eskalation wird das Prinzip Treppenlauf einmal komplett neu
-          gedacht. Denn hier bewegt sich die Treppe selbst: Statt auf einer
-          gewöhnlichen Treppe geht es auf einer Rolltreppe nach oben.
-          <strong>Rise Against the Machine.</strong>
+          Die längste freistehende Rolltreppe Deutschlands: 58 Meter und 24
+          Höhenmeter am Ruhr Museum auf Zollverein. Erst läuft man sie im
+          Stillstand, im Finale fährt sie dann nach unten – und es geht trotzdem
+          rauf.
         </p>
       </section>
     </div>
