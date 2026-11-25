@@ -88,7 +88,7 @@ useHead({
     </div>
   </div>
 
-  <div class="columns mt-6 row reversed">
+  <div id="fire-trail-nesselwang" class="columns mt-6 row reversed">
     <div
       class="column image is-7"
       style="
@@ -101,7 +101,7 @@ useHead({
     <div class="column is-4 is-offset-1">
       <section class="section">
         <h2 class="title">
-          <a href="//wwww.fire-trail-nesselwang.de"
+          <a href="//www.fire-trail-nesselwang.de"
             >Fire Trail <span>Nesselwang</span></a
           >
         </h2>
@@ -112,6 +112,10 @@ useHead({
           und Steigungen bis zum Sportheim Böck auf rund 1.500 Metern Höhe.
           Gelaufen wird mit kompletter Ausrüstung gegen die Uhr – mitten durch
           die Landschaft rund um Nesselwang.
+        </p>
+
+        <p class="series-link">
+          <small><a href="#fire-trail-immenstadt">Auch in Immenstadt →</a></small>
         </p>
       </section>
     </div>
@@ -183,7 +187,7 @@ useHead({
     </div>
   </div>
 
-  <div class="columns mt-6 row">
+  <div id="eskalation-frankfurt" class="columns mt-6 row">
     <div
       class="column image is-7"
       style="background-image: url(images/eskalation-frankfurt.jpg)"
@@ -213,6 +217,10 @@ useHead({
           der Rolltreppe im MyZeil – nach oben, während sie nach unten fährt.
           <strong>Rise Against the Machine.</strong>
         </p>
+
+        <p class="series-link">
+          <small><a href="#eskalation-essen">Auch in Essen →</a></small>
+        </p>
       </section>
     </div>
   </div>
@@ -229,7 +237,7 @@ useHead({
     </div>
   </section>
 
-  <div class="columns mt-6 row reversed">
+  <div id="fire-trail-immenstadt" class="columns mt-6 row reversed">
     <div
       class="column image is-7"
       style="background-image: url(images/fire-trail-immenstadt.jpg)"
@@ -249,6 +257,10 @@ useHead({
           Immenstadt wird damit Teil der Serie, die Feuerwehrsport mit Berglauf
           verbindet und die Herausforderung dorthin bringt, wo es nicht nur nach
           oben, sondern auch durch die Landschaft geht.
+        </p>
+
+        <p class="series-link">
+          <small><a href="#fire-trail-nesselwang">Auch in Nesselwang →</a></small>
         </p>
       </section>
     </div>
@@ -278,7 +290,7 @@ useHead({
     </div>
   </div>
 
-  <div class="columns mt-6 row reversed">
+  <div id="eskalation-essen" class="columns mt-6 row reversed">
     <div
       class="column image is-7"
       style="background-image: url(images/eskalation-essen.jpg)"
@@ -305,6 +317,10 @@ useHead({
           Höhenmeter am Ruhr Museum auf Zollverein. Erst läuft man sie im
           Stillstand, im Finale fährt sie dann nach unten – und es geht trotzdem
           rauf.
+        </p>
+
+        <p class="series-link">
+          <small><a href="#eskalation-frankfurt">Auch in Frankfurt →</a></small>
         </p>
       </section>
     </div>
@@ -398,5 +414,13 @@ mark.special {
 .title a {
   color: inherit;
   display: block;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.series-link {
+  margin-top: 1rem;
 }
 </style>
