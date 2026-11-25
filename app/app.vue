@@ -91,39 +91,6 @@ useHead({
   <div class="columns mt-6 row reversed">
     <div
       class="column image is-7"
-      style="background-image: url(images/schachmatt-ulm.jpg)"
-    >
-      &nbsp;
-    </div>
-    <div class="column is-4 is-offset-1">
-      <section class="section">
-        <h2 class="title">
-          <a href="//www.schachmatt-ulm.de">Schachmatt <span>Ulm</span></a>
-        </h2>
-
-        <article class="message">
-          <div class="message-body">
-            <blockquote cite="https://www.schachmatt-ulm.de">
-              <p>Es tut schon weh, aber <mark>ist irgendwie geil</mark>.</p>
-            </blockquote>
-            <p>— Lukas (BF Ulm)</p>
-          </div>
-        </article>
-
-        <p>
-          18 Stockwerke, acht mögliche Durchgänge und immer nur zwei Teams
-          gleichzeitig im direkten Duell: Schachmatt Ulm ist ein
-          K.-o.-Treppenlauf. Wer schneller oben ist, kommt weiter – wer
-          verliert, ist raus. Gelaufen wird im Zweierteam und in kompletter
-          Einsatzkleidung mit Atemschutzgerät auf dem Rücken.
-        </p>
-      </section>
-    </div>
-  </div>
-
-  <div class="columns mt-6 row">
-    <div
-      class="column image is-7"
       style="
         background-image: url(images/fire-trail-nesselwang.jpg);
         background-position-y: 60%;
@@ -131,7 +98,7 @@ useHead({
     >
       &nbsp;
     </div>
-    <div class="column is-4">
+    <div class="column is-4 is-offset-1">
       <section class="section">
         <h2 class="title">
           <a href="//wwww.fire-trail-nesselwang.de"
@@ -150,7 +117,7 @@ useHead({
     </div>
   </div>
 
-  <div class="columns mt-6 row reversed">
+  <div class="columns mt-6 row">
     <div
       class="column image is-7"
       style="
@@ -161,7 +128,7 @@ useHead({
     >
       &nbsp;
     </div>
-    <div class="column is-4 is-offset-1">
+    <div class="column is-4">
       <section class="section">
         <h2 class="title">
           <a href="//muensterturmlauf-ulm.gelungen.es"
@@ -180,7 +147,7 @@ useHead({
     </div>
   </div>
 
-  <div class="columns mt-6 row">
+  <div class="columns mt-6 row reversed">
     <div
       class="column image is-7"
       style="
@@ -190,7 +157,7 @@ useHead({
     >
       &nbsp;
     </div>
-    <div class="column is-4">
+    <div class="column is-4 is-offset-1">
       <section class="section">
         <h2 class="title">
           <a href="//www.munich-sunrise.de">Munich <span>Sunrise</span></a>
