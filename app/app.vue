@@ -199,7 +199,7 @@ useHead({
     <div
       class="column image is-7"
       style="
-        background-image: url(images/schachmatt-mannheim.jpg);
+        background-image: url(images/one-left-mannheim.jpg);
         background-position-x: 20%;
       "
     >
@@ -207,17 +207,13 @@ useHead({
     </div>
     <div class="column is-4 is-offset-1">
       <section class="section">
-        <h2 class="title">
-          <a href="//wwww.schachmatt-mannheim.de"
-            >Schachmatt <span>Mannheim</span></a
-          >
-        </h2>
+        <h2 class="title">One Left <span>Mannheim</span></h2>
 
         <p>
-          Das K.-o.-Prinzip von Schachmatt kommt nach Mannheim. Statt Runde für
-          Runde gegen die Uhr geht es direkt ins Duell: Zwei Teams, ein
-          Treppenhaus und die Frage, wer zuerst oben ist. Eine neue Stadt, eine
-          neue Herausforderung – Schachmatt geht in die nächste Runde.
+          Das Prinzip eines Backyard Ultras, nur eben im Treppenhaus des
+          Victoria-Turms: Zu jeder Runde geht es gemeinsam an den Start, wer es
+          nicht rechtzeitig wieder nach oben schafft, ist raus. Runde für Runde,
+          so lange, bis nur noch eine Person übrig ist.
         </p>
       </section>
     </div>
