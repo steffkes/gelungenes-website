@@ -35,12 +35,12 @@ useHead({
     </div>
   </section>
 
-  <section class="hero is-info">
+  <section class="hero is-success">
     <div class="hero-body px-0">
       <div class="columns">
         <div class="column is-10 is-offset-1">
           <section class="section">
-            <h1 class="title">Unsere Veranstaltungen</h1>
+            <h1 class="title has-text-white">Unsere Veranstaltungen</h1>
           </section>
         </div>
       </div>
@@ -194,7 +194,7 @@ useHead({
       <div class="columns">
         <div class="column is-10 is-offset-1">
           <section class="section">
-            <h1 class="title">Unsere Ideen</h1>
+            <h1 class="title has-text-white">Unsere Ideen</h1>
           </section>
         </div>
       </div>
@@ -312,12 +312,12 @@ useHead({
     </div>
   </div>
 
-  <section class="hero is-info">
+  <section class="hero has-background-grey">
     <div class="hero-body px-0">
       <div class="columns">
         <div class="column is-10 is-offset-1">
           <section class="section">
-            <h1 class="title">Bisherige Veranstaltungen</h1>
+            <h1 class="title has-text-white">Bisherige Veranstaltungen</h1>
           </section>
         </div>
       </div>
