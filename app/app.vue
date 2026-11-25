@@ -47,48 +47,7 @@ useHead({
     </div>
   </section>
 
-  <div class="columns mt-6 row">
-    <div
-      class="column image is-7"
-      style="
-        background-image: url(images/schanzenlauf-oberstdorf.jpg);
-        background-position-y: 20%;
-        background-position-x: 65%;
-      "
-    >
-      &nbsp;
-    </div>
-    <div class="column is-4">
-      <section class="section">
-        <h2 class="title">
-          <a href="//www.schanzenlauf-oberstdorf.de"
-            >Schanzenlauf <span>Oberstdorf</span></a
-          >
-        </h2>
-
-        <article class="message">
-          <div class="message-body">
-            <blockquote cite="https://www.schanzenlauf-oberstdorf.de">
-              <p>
-                Ich würde mal vorsichtig behaupten, das war
-                <mark>einer der härtesten Treppenläufe</mark>, den die
-                (Feuerwehrsport-) Welt zu bieten hat 🙈
-              </p>
-            </blockquote>
-            <p>— Alex (BF Bremen)</p>
-          </div>
-        </article>
-
-        <p>
-          Über 1.000 Stufen, 162 Höhenmeter und 412 Meter Strecke: die
-          Heini-Klopfer-Skiflugschanze hinauf. Oben wartet nicht nur das Ziel,
-          sondern auch eine Aussicht, die man sich erst einmal verdienen muss.
-        </p>
-      </section>
-    </div>
-  </div>
-
-  <div id="fire-trail-nesselwang" class="columns mt-6 row reversed">
+  <div id="fire-trail-nesselwang" class="columns mt-6 row">
     <div
       class="column image is-7"
       style="
@@ -98,7 +57,7 @@ useHead({
     >
       &nbsp;
     </div>
-    <div class="column is-4 is-offset-1">
+    <div class="column is-4">
       <section class="section">
         <h2 class="title">
           <a href="//www.fire-trail-nesselwang.de"
@@ -121,7 +80,7 @@ useHead({
     </div>
   </div>
 
-  <div class="columns mt-6 row">
+  <div class="columns mt-6 row reversed">
     <div
       class="column image is-7"
       style="
@@ -132,7 +91,7 @@ useHead({
     >
       &nbsp;
     </div>
-    <div class="column is-4">
+    <div class="column is-4 is-offset-1">
       <section class="section">
         <h2 class="title">
           <a href="//muensterturmlauf-ulm.gelungen.es"
@@ -151,7 +110,7 @@ useHead({
     </div>
   </div>
 
-  <div class="columns mt-6 row reversed">
+  <div class="columns mt-6 row">
     <div
       class="column image is-7"
       style="
@@ -161,7 +120,7 @@ useHead({
     >
       &nbsp;
     </div>
-    <div class="column is-4 is-offset-1">
+    <div class="column is-4">
       <section class="section">
         <h2 class="title">
           <a href="//www.munich-sunrise.de">Munich <span>Sunrise</span></a>
@@ -187,14 +146,14 @@ useHead({
     </div>
   </div>
 
-  <div id="eskalation-frankfurt" class="columns mt-6 row">
+  <div id="eskalation-frankfurt" class="columns mt-6 row reversed">
     <div
       class="column image is-7"
       style="background-image: url(images/eskalation-frankfurt.jpg)"
     >
       &nbsp;
     </div>
-    <div class="column is-4">
+    <div class="column is-4 is-offset-1">
       <section class="section">
         <h2 class="title">
           <a href="//eskalation-frankfurt.de"
@@ -224,6 +183,7 @@ useHead({
       </section>
     </div>
   </div>
+
 
   <section class="hero is-info">
     <div class="hero-body px-0">
@@ -348,6 +308,94 @@ useHead({
     </div>
   </div>
 
+  <section class="hero is-info">
+    <div class="hero-body px-0">
+      <div class="columns">
+        <div class="column is-10 is-offset-1">
+          <section class="section">
+            <h1 class="title">Bisherige Veranstaltungen</h1>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="columns mt-6 row past">
+    <div
+      class="column image is-7"
+      style="
+        background-image: url(images/schanzenlauf-oberstdorf.jpg);
+        background-position-y: 20%;
+        background-position-x: 65%;
+      "
+    >
+      &nbsp;
+    </div>
+    <div class="column is-4">
+      <section class="section">
+        <h2 class="title">
+          <a href="//www.schanzenlauf-oberstdorf.de"
+            >Schanzenlauf <span>Oberstdorf</span></a
+          >
+        </h2>
+
+        <article class="message">
+          <div class="message-body">
+            <blockquote cite="https://www.schanzenlauf-oberstdorf.de">
+              <p>
+                Ich würde mal vorsichtig behaupten, das war
+                <mark>einer der härtesten Treppenläufe</mark>, den die
+                (Feuerwehrsport-) Welt zu bieten hat 🙈
+              </p>
+            </blockquote>
+            <p>— Alex (BF Bremen)</p>
+          </div>
+        </article>
+
+        <p>
+          Über 1.000 Stufen, 162 Höhenmeter und 412 Meter Strecke: die
+          Heini-Klopfer-Skiflugschanze hinauf. Oben wartet nicht nur das Ziel,
+          sondern auch eine Aussicht, die man sich erst einmal verdienen muss.
+          Gelungenes hat den Schanzenlauf 2023 organisiert, inzwischen richtet
+          ihn die Feuerwehr Oberstdorf selbst aus.
+        </p>
+      </section>
+    </div>
+  </div>
+
+  <div class="columns mt-6 row reversed past">
+    <div
+      class="column image is-7"
+      style="background-image: url(images/schachmatt-ulm.jpg)"
+    >
+      &nbsp;
+    </div>
+    <div class="column is-4 is-offset-1">
+      <section class="section">
+        <h2 class="title">
+          <a href="//www.schachmatt-ulm.de">Schachmatt <span>Ulm</span></a>
+        </h2>
+
+        <article class="message">
+          <div class="message-body">
+            <blockquote cite="https://www.schachmatt-ulm.de">
+              <p>Es tut schon weh, aber <mark>ist irgendwie geil</mark>.</p>
+            </blockquote>
+            <p>— Lukas (BF Ulm)</p>
+          </div>
+        </article>
+
+        <p>
+          18 Stockwerke, acht mögliche Durchgänge und immer nur zwei Teams
+          gleichzeitig im direkten Duell: Schachmatt Ulm war ein
+          K.-o.-Treppenlauf. Wer schneller oben war, kam weiter – wer verlor,
+          war raus. Gelaufen wurde im Zweierteam und in kompletter
+          Einsatzkleidung mit Atemschutzgerät auf dem Rücken.
+        </p>
+      </section>
+    </div>
+  </div>
+
   <section class="section py-6">
     <div class="columns mt-6">
       <div class="column is-10 is-offset-1">
@@ -422,5 +470,14 @@ html {
 
 .series-link {
   margin-top: 1rem;
+}
+
+.row.past .column.image {
+  filter: grayscale(70%);
+  transition: filter 0.4s;
+}
+
+.row.past:hover .column.image {
+  filter: grayscale(0);
 }
 </style>
