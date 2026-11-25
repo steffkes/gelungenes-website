@@ -47,7 +47,7 @@ useHead({
     </div>
   </section>
 
-  <div id="fire-trail-nesselwang" class="columns mt-6 row">
+  <div id="fire-trail-nesselwang" class="columns row">
     <div
       class="column image is-7"
       style="
@@ -81,7 +81,7 @@ useHead({
     </div>
   </div>
 
-  <div class="columns mt-6 row reversed">
+  <div class="columns row reversed">
     <div
       class="column image is-7"
       style="
@@ -112,7 +112,7 @@ useHead({
     </div>
   </div>
 
-  <div class="columns mt-6 row">
+  <div class="columns row">
     <div
       class="column image is-7"
       style="
@@ -149,7 +149,7 @@ useHead({
     </div>
   </div>
 
-  <div id="eskalation-frankfurt" class="columns mt-6 row reversed">
+  <div id="eskalation-frankfurt" class="columns row reversed">
     <div
       class="column image is-7"
       style="background-image: url(images/eskalation-frankfurt.jpg)"
@@ -201,7 +201,7 @@ useHead({
     </div>
   </section>
 
-  <div id="fire-trail-immenstadt" class="columns mt-6 row reversed">
+  <div id="fire-trail-immenstadt" class="columns row reversed">
     <div
       class="column image is-7"
       style="background-image: url(images/fire-trail-immenstadt.jpg)"
@@ -230,7 +230,7 @@ useHead({
     </div>
   </div>
 
-  <div class="columns mt-6 row">
+  <div class="columns row">
     <div
       class="column image is-7"
       style="
@@ -254,7 +254,7 @@ useHead({
     </div>
   </div>
 
-  <div id="eskalation-essen" class="columns mt-6 row reversed">
+  <div id="eskalation-essen" class="columns row reversed">
     <div
       class="column image is-7"
       style="background-image: url(images/eskalation-essen.jpg)"
@@ -290,7 +290,7 @@ useHead({
     </div>
   </div>
 
-  <div class="columns mt-6 row">
+  <div class="columns row">
     <div
       class="column image is-7"
       style="background-image: url(images/fire-ride.jpg)"
@@ -324,7 +324,7 @@ useHead({
     </div>
   </section>
 
-  <div class="columns mt-6 row past">
+  <div class="columns row past">
     <div
       class="column image is-7"
       style="
@@ -368,7 +368,7 @@ useHead({
     </div>
   </div>
 
-  <div class="columns mt-6 row reversed past">
+  <div class="columns row reversed past">
     <div
       class="column image is-7"
       style="background-image: url(images/schachmatt-ulm.jpg)"
@@ -403,7 +403,7 @@ useHead({
   </div>
 
   <section class="section py-6">
-    <div class="columns mt-6">
+    <div class="columns">
       <div class="column is-10 is-offset-1">
         <div class="content">
           <p>Und das war erst der Anfang.</p>
@@ -445,7 +445,26 @@ useHead({
 .row .column.image {
   background-size: cover;
   background-position: 50% 50%;
-  height: 50vh;
+  min-height: 50vh;
+}
+
+/* einheitlicher Abstand zwischen Balken und Einträgen */
+.columns.row {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.hero + .row,
+.row + .row,
+.row + .hero {
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .row .column.is-4,
+  .row .column.is-4 .section {
+    padding-bottom: 0;
+  }
 }
 
 .row.reversed {
