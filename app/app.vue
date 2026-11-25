@@ -232,35 +232,11 @@ useHead({
   <div class="columns mt-6 row reversed">
     <div
       class="column image is-7"
-      style="
-        background-image: url(images/one-left-mannheim.jpg);
-        background-position-x: 20%;
-      "
-    >
-      &nbsp;
-    </div>
-    <div class="column is-4 is-offset-1">
-      <section class="section">
-        <h2 class="title">One Left <span>Mannheim</span></h2>
-
-        <p>
-          Das Prinzip eines Backyard Ultras, nur eben im Treppenhaus des
-          Victoria-Turms: Zu jeder Runde geht es gemeinsam an den Start, wer es
-          nicht rechtzeitig wieder nach oben schafft, ist raus. Runde für Runde,
-          so lange, bis nur noch eine Person übrig ist.
-        </p>
-      </section>
-    </div>
-  </div>
-
-  <div class="columns mt-6 row">
-    <div
-      class="column image is-7"
       style="background-image: url(images/fire-trail-immenstadt.jpg)"
     >
       &nbsp;
     </div>
-    <div class="column is-4">
+    <div class="column is-4 is-offset-1">
       <section class="section">
         <h2 class="title">
           <a href="//www.fire-trail-immenstadt.de"
@@ -273,6 +249,30 @@ useHead({
           Immenstadt wird damit Teil der Serie, die Feuerwehrsport mit Berglauf
           verbindet und die Herausforderung dorthin bringt, wo es nicht nur nach
           oben, sondern auch durch die Landschaft geht.
+        </p>
+      </section>
+    </div>
+  </div>
+
+  <div class="columns mt-6 row">
+    <div
+      class="column image is-7"
+      style="
+        background-image: url(images/one-left-mannheim.jpg);
+        background-position-x: 20%;
+      "
+    >
+      &nbsp;
+    </div>
+    <div class="column is-4">
+      <section class="section">
+        <h2 class="title">One Left <span>Mannheim</span></h2>
+
+        <p>
+          Das Prinzip eines Backyard Ultras, nur eben im Treppenhaus des
+          Victoria-Turms: Zu jeder Runde geht es gemeinsam an den Start, wer es
+          nicht rechtzeitig wieder nach oben schafft, ist raus. Runde für Runde,
+          so lange, bis nur noch eine Person übrig ist.
         </p>
       </section>
     </div>
