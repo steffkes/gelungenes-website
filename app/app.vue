@@ -16,10 +16,12 @@ useHead({
 
         <div class="content">
           <p>
-            Gelungenes steht für außergewöhnliche Sport- und
-            Wettkampfveranstaltungen. Für Herausforderungen, bei denen es auf
-            Leistung, Teamgeist und den Willen ankommt, bis zum Schluss
-            durchzuziehen.
+            Gelungenes macht außergewöhnliche Wettkämpfe für Feuerwehrleute,
+            egal ob Berufs-, Frei- oder Werkfeuerwehr, und für die
+            Atemschutzgeräteträger des THW. Gelaufen wird meist in voller
+            Ausrüstung, auf Strecken, die man sonst nicht zu Fuß nimmt: die
+            Skiflugschanze hinauf statt mit dem Aufzug, durchs Brandtreppenhaus
+            eines Hochhauses oder gegen eine Rolltreppe.
           </p>
 
           <p>
