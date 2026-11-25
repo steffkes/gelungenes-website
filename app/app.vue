@@ -404,6 +404,66 @@ useHead({
     </div>
   </div>
 
+  <section class="hero is-dark">
+    <div class="hero-body px-0">
+      <div class="columns">
+        <div class="column is-10 is-offset-1">
+          <section class="section">
+            <h1 class="title has-text-white">Wer dahinter steckt</h1>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="columns row about">
+    <div
+      class="column image is-4"
+      style="
+        background-image: url(images/stefan.jpg);
+        background-position-y: 55%;
+      "
+    >
+      &nbsp;
+    </div>
+    <div class="column is-6 is-offset-1">
+      <section class="section">
+        <h2 class="title">Stefan <span>Matheis</span></h2>
+
+        <article class="message">
+          <div class="message-body">
+            <blockquote>
+              <p>
+                War eine <mark>echt coole Geschichte</mark> mit einer neuen
+                Unbekannten ;-)
+              </p>
+            </blockquote>
+            <p>— Armin (Feuerwehr Rednitzhembach) über Schachmatt Ulm</p>
+          </div>
+        </article>
+
+        <p>
+          Hinter Gelungenes steckt Stefan Matheis, selbst Feuerwehrmann und seit
+          2020 in voller Montur bei Wettkämpfen am Start.
+        </p>
+
+        <p class="mt-4">
+          Kein Konzept von der Stange: Jeder Wettkampf richtet sich nach dem Ort
+          und dem, was er hergibt. So werden zwei Treppenhäuser zum K.-o.-Duell
+          und eine Rolltreppe zum Gegner. Sein Motto dabei: „Bevor ich Nein
+          sage, probiere ich es einfach mal aus.“
+        </p>
+
+        <p class="mt-4">Fragen oder Ideen?</p>
+
+        <p class="mt-4">
+          <a href="mailto:stefan@gelungen.es">stefan@gelungen.es</a> ·
+          <a href="tel:+4916097048114">0160 970 48 114</a>
+        </p>
+      </section>
+    </div>
+  </div>
+
   <section class="section py-6">
     <div class="columns">
       <div class="column is-10 is-offset-1">
@@ -502,6 +562,12 @@ html {
 .title + .years {
   margin-top: -1rem;
   margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .row.about .column.image {
+    min-height: 40vh;
+  }
 }
 
 .row.past .column.image {
