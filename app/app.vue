@@ -64,6 +64,7 @@ useHead({
             >Fire Trail <span>Nesselwang</span></a
           >
         </h2>
+        <p class="years is-size-6 has-text-grey">seit 2025</p>
 
         <p>
           Beim Fire Trail geht Feuerwehrsport raus aus dem Gebäude und rauf auf
@@ -98,6 +99,7 @@ useHead({
             >Münsterturmlauf <span>Ulm</span></a
           >
         </h2>
+        <p class="years is-size-6 has-text-grey">seit 2026</p>
 
         <p>
           560 Stufen führen vom Münsterplatz hinauf zum zweiten Kranz des Ulmer
@@ -125,6 +127,7 @@ useHead({
         <h2 class="title">
           <a href="//www.munich-sunrise.de">Munich <span>Sunrise</span></a>
         </h2>
+        <p class="years is-size-6 has-text-grey">seit 2026</p>
 
         <article class="message">
           <div class="message-body">
@@ -160,6 +163,7 @@ useHead({
             >Eskalation <span>Frankfurt</span></a
           >
         </h2>
+        <p class="years is-size-6 has-text-grey">ab 2027</p>
 
         <article class="message">
           <div class="message-body">
@@ -338,6 +342,7 @@ useHead({
             >Schanzenlauf <span>Oberstdorf</span></a
           >
         </h2>
+        <p class="years is-size-6 has-text-grey">2023</p>
 
         <article class="message">
           <div class="message-body">
@@ -375,6 +380,7 @@ useHead({
         <h2 class="title">
           <a href="//www.schachmatt-ulm.de">Schachmatt <span>Ulm</span></a>
         </h2>
+        <p class="years is-size-6 has-text-grey">2024 – 2026</p>
 
         <article class="message">
           <div class="message-body">
@@ -470,6 +476,11 @@ html {
 
 .series-link {
   margin-top: 1rem;
+}
+
+.title + .years {
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
 }
 
 .row.past .column.image {
